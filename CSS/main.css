@@ -1,0 +1,742 @@
+body {
+  font-family: 'Mulish';
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.container{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.head{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 80px;
+  margin-top: 120px;
+}
+
+.link {
+  text-decoration: none;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  color: #1F1534;
+  opacity: 0.5;
+  margin-left: 40px;
+}
+
+.link:hover {
+  font-weight: bold;
+  color: #5A98F2;
+  text-decoration: underline;
+}
+
+.virtual{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 115px;
+}
+
+.header h1 {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+  color: #000000;
+  margin-bottom: 25px;
+}
+
+.header p {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 32px;
+  color: #7D7987;
+  margin-bottom: 45px;
+}
+
+.header a {
+  text-align: center;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0em;
+  background: #458FF6;
+  border-radius: 55px;
+  text-decoration: none;
+  padding: 20px 40px;
+  color: white;
+}
+
+.header a:hover{
+  color: #458FF6;
+  background-color: #ffffff;
+  border: 1px solid #458FF6;
+  margin-bottom: 80px;
+}
+
+.services h2 {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 56px;
+  color: #000000;
+  text-align: center;
+}
+
+.services p {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #7D7987;
+}
+
+.services hr {
+  width: 40px;
+  height: 1px;
+  background-color: black;
+  margin-top: 30px;
+  margin-bottom: 35px;
+}
+
+.icons{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icons2{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+
+.lupa {
+  border: 1px solid white;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.lupa h3 {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 56px;
+  color: #000000;
+}
+
+.lupa p {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: #7D7987;
+}
+
+.bonka {
+  border: 1px solid white;
+  padding: 30px;
+  border-radius: 20PX;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+}
+
+.bonka h3 {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 56px;
+  color: #000000;
+}
+
+.bonka p {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: #7D7987;
+}
+
+.izoh {
+  border: 1px solid white;
+  padding: 30px;
+  border-radius: 20PX;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+}
+
+.izoh h3 {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 56px;
+  color: #000000;
+}
+
+.izoh p {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: #7D7987;
+}
+
+.Frame1 {
+  border: 1px solid white;
+  padding: 30px;
+  border-radius: 20PX;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+}
+
+.Frame1 h3 {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 56px;
+  color: #000000;
+}
+
+.Frame1 p {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: #7D7987;
+}
+
+.plus {
+  border: 1px solid white;
+  padding: 30PX;
+  border-radius: 20PX;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+}
+
+.plus h3 {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 56px;
+  color: #000000;
+}
+
+.plus p {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: #7D7987;
+}
+
+.frame {
+  border: 1px solid white;
+  padding: 30PX;
+  border-radius: 20PX;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+}
+
+.frame h3 {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 56px;
+  color: #000000;
+}
+
+frame p {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: #7D7987;
+}
+
+#learn {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 60px;
+  color: #458FF6;
+  border: 1px solid #458FF6;
+  border-radius: 55px;
+  text-decoration: none;
+  padding: 15px 40px;
+}
+
+#learn:hover{
+  color: #ffffff;
+  background-color: #458FF6;
+}
+
+.learn-button{
+  text-align: center;
+  margin-bottom: 220px;
+}
+
+.kolba{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 265px;
+}
+
+.leading h3 {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 56px;
+  color: #000000;
+  margin-bottom: 25px;
+}
+
+.kolba img{
+  margin-left: 39px;
+}
+
+.leading p {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: #7D7987;
+  margin-bottom: 40px;
+}
+
+.leading a {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 60px;
+  color: #458FF6;
+  border: 1px solid #458FF6;
+  border-radius: 55px;
+  text-decoration: none;
+  padding: 15px 40px;
+}
+
+.leading a:hover{
+  color: #ffffff;
+  background-color: #458FF6;
+}
+
+.leading hr{
+  width: 40px;
+  height: 2px;
+  background-color: black;
+  margin-top: 30px;
+  margin-bottom: 35px;
+  initial-letter-align: left;
+}
+
+.yurakyon{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 266px;
+}
+
+
+
+.download h3 {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  color: #000000;
+  margin-bottom: 25px;
+}
+
+.download p {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: #7D7987;
+  margin-bottom: 40px;
+}
+
+.download a {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 60px;
+  color: #458FF6;
+  border: 1px solid #458FF6;
+  border-radius: 55px;
+  text-decoration: none;
+  padding: 15px 40px;
+}
+
+.download a:hover{
+  color: #ffffff;
+  background-color: #458FF6;
+}
+
+.download hr{
+  width: 40px;
+  height: 2px;
+  background-color: black;
+  margin-top: 30px;
+  margin-bottom: 35px;
+}
+
+.shapka {
+  padding:64px 118px 89px 122px;
+  border: 1px solid blue;
+  background-color: #5A98F2;
+  border-radius: 24px;
+  margin-bottom: 43px;
+}
+
+.navigators{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 222px;
+}
+
+.dots{
+  width: 5px;
+  height: 5px;
+  border-radius:50%;
+  background: #5B9BF3;
+  opacity: 0.3;
+  margin-right: 20px;
+  display: block;
+}
+
+.dots1{
+  width: 5px;
+  height: 5px;
+  border-radius:50%;
+  background: #5B9BF3;
+  opacity: 0.3;
+  display: block;
+}
+
+.dots2{
+  width: 10px;
+  height: 10px;
+  background: #5B9BF3;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.arrow-left{
+  margin-right: 90px;
+}
+
+.arrow-right{
+  margin-left: 90px;
+}
+
+.odam{
+  display: flex;
+  align-items: center;
+  justify-content: space-around; 
+}
+
+.aaa{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#rasm{
+  margin-right: 41px;
+  margin-bottom: 50px;
+  width: 211.35px;
+  height: 210px;
+}
+
+.shapka h3 {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 15px;
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 104px;
+}
+
+.shapka p{
+  color: #FFFFFF;
+}
+
+.name h4{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 48px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  margin-right: 110px;
+}
+
+.name p{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 48px;
+  color: rgba(255, 255, 255, 0.85);
+  mix-blend-mode: normal;
+}
+
+#our {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 30px;
+}
+
+#check {
+  text-align: center;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 56px;
+  color: #000000;
+}
+
+#check-hr {
+  width: 40px;
+  height: 2px;
+  background-color: black;
+  margin-top: 30px;
+  margin-bottom: 72px;
+}
+
+.section-image{
+  margin-bottom: 21px;
+}
+
+.ukol .div-inner{
+  margin-bottom: 10px;
+  background: #FFFFFF;
+  border-radius: 20px;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+}
+
+.ukol .div-inner h4 {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 32px;
+  color: #000000;
+  margin-bottom: 12px;
+}
+
+.ukol .div-inner p {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: #7D7987;
+  margin-bottom: 25px;
+}
+
+.ukol .div-inner a {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 28px;
+  color: #4089ED;
+  text-decoration: none;
+}
+
+.mikroskop .div-inner{
+  margin-bottom: 10px;
+  background: #FFFFFF;
+  border-radius: 20px;
+  box-shadow: 10px 40px 50px  rgba(229, 233, 246, 0.4);
+}
+
+.div-inner{
+  padding: 0 0 35px 35px;
+}
+
+.mikroskop .div-inner h4 {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 32px;
+  color: #000000;
+  margin-bottom: 12px;
+}
+
+.mikroskop .div-inner p {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 2px;
+  color: #7D7987;
+  margin-bottom: 25px;
+}
+
+.mikroskop .div-inner a {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 28px;
+  color: #4089ED;
+  text-decoration: none;
+}
+
+.mask .div-inner{
+  background: #FFFFFF;
+  border-radius: 20px;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+}
+
+.mask .div-inner h4{
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 32px;
+  color: #000000;
+  margin-bottom: 12px;
+}
+
+.mask .div-inner p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: #7D7987;
+  margin-bottom: 25px;
+}
+
+.mask .div-inner a {
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 28px;
+  color: #4089ED;
+  text-decoration: none;
+}
+
+.footer-icons{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content{
+  margin-bottom: 72px;
+}
+
+#view {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 60px;
+  color: #458FF6;
+  border: 1px solid #458FF6;
+  border-radius: 55px;
+  text-decoration: none;
+  padding: 15px 40px;
+}
+
+#view:hover{
+  color: #ffffff;
+  background-color: #458FF6;
+}
+
+.view-button1 {
+  text-align: center;
+  margin-bottom: 200px;
+}
+
+.footer {
+  background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+  display: flex;
+  justify-content: center;
+  padding-top: 118px;
+  padding-bottom: 100px;
+}
+
+.footer-left img{
+  margin-bottom: 20px;
+}
+
+.footer-left-text{
+  margin-bottom: 30px;
+}
+
+.footer-inner p{
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+
+.footer-inner h3{
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 60px;
+  color: #FFFFFF;
+}
+
+.footer-inner ul{
+  color:#67C3F3;
+}
+
+.footer-inner li a{
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 38px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.footer-inner{
+  display: flex;
+  justify-content: space-between;
+}
